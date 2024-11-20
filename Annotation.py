@@ -52,7 +52,7 @@ def segment_image(image_path):
         temp_image = annotated_image.copy()
         for contour in annotations:
             points = np.array(contour, dtype=np.int32)
-            cv2.polylines(temp_image, [points], isClosed=True, color=(0, 255, 0), thickness=2)
+            cv2.polylines(temp_image, [points], isClosed=True, color=(200, 177, 35), thickness=2)
 
         # Display the image with annotations
         cv2.imshow("Image Segmentation", temp_image)
@@ -78,4 +78,4 @@ def segment_image(image_path):
 # Example usage
 if __name__ == "__main__":
     PathNames = r"C:\Users\cic\Desktop\awwdd\Picture"
-    segment_image(PathNames + "//000000006763.jpg")
+    segment_image(PathNames + "//000000016598.jpg")
