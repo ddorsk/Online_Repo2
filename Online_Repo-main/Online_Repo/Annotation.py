@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Nov  4 18:35:23 2024
-
+ddorsk 왔다감
 @author: UOU
 """
 
